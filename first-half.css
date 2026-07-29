@@ -1,0 +1,500 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-el-1 {
+  @apply pt-32 pb-24 text-center min-h-screen;
+}
+.app-el-2 {
+  @apply text-4xl font-serif font-bold mb-4;
+}
+.app-el-3 {
+  @apply pt-32 pb-24 text-center min-h-screen;
+}
+.app-el-4 {
+  @apply text-4xl font-serif font-bold mb-4;
+}
+.app-el-5 {
+  @apply pt-32 pb-24 text-center min-h-screen;
+}
+.app-el-6 {
+  @apply text-4xl font-serif font-bold mb-4;
+}
+.app-el-7 {
+  @apply pt-32 pb-24 text-center min-h-screen;
+}
+.app-el-8 {
+  @apply text-4xl font-serif font-bold mb-4;
+}
+.app-el-9 {
+  @apply pt-32 pb-24 text-center min-h-screen;
+}
+.app-el-10 {
+  @apply text-4xl font-serif font-bold mb-4;
+}
+.app-el-11 {
+  @apply pt-32 pb-24 text-center min-h-screen;
+}
+.app-el-12 {
+  @apply text-4xl font-serif font-bold mb-4;
+}
+.app-el-13 {
+  @apply pt-32 pb-24 text-center min-h-screen;
+}
+.app-el-14 {
+  @apply text-6xl font-serif font-bold mb-4 text-accent;
+}
+.app-el-15 {
+  @apply text-xl;
+}
+.footer-el-16 {
+  @apply bg-white border-t border-slate-200 pt-24 pb-12 px-6;
+}
+.footer-el-17 {
+  @apply max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16;
+}
+.footer-el-18 {
+  @apply flex items-center gap-2 mb-6;
+}
+.footer-el-19 {
+  @apply w-10 h-10 bg-primary flex items-center justify-center rounded-sm;
+}
+.footer-el-20 {
+  @apply text-accent font-bold text-xl;
+}
+.footer-el-21 {
+  @apply flex flex-col leading-none;
+}
+.footer-el-22 {
+  @apply text-lg font-bold tracking-tight text-primary;
+}
+.footer-el-23 {
+  @apply text-[10px] uppercase tracking-[0.3em] font-medium text-secondary;
+}
+.footer-el-24 {
+  @apply text-slate-500 leading-relaxed mb-8 text-sm;
+}
+.footer-el-25 {
+  @apply flex gap-4;
+}
+.footer-el-26 {
+  @apply w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 hover:bg-primary hover:text-white transition-colors;
+}
+.footer-el-27 {
+  @apply w-4 h-4;
+}
+.footer-el-28 {
+  @apply text-[11px] uppercase tracking-[0.2em] font-bold text-secondary mb-6;
+}
+.footer-el-29 {
+  @apply space-y-4;
+}
+.footer-el-30 {
+  @apply text-slate-500 text-sm hover:text-accent font-medium transition-colors;
+}
+.footer-el-31 {
+  @apply text-[11px] uppercase tracking-[0.2em] font-bold text-secondary mb-6;
+}
+.footer-el-32 {
+  @apply space-y-4;
+}
+.footer-el-33 {
+  @apply flex gap-3 text-slate-500 text-sm font-medium;
+}
+.footer-el-34 {
+  @apply w-4 h-4 text-accent shrink-0;
+}
+.footer-el-35 {
+  @apply flex gap-3 text-slate-500 text-sm font-medium;
+}
+.footer-el-36 {
+  @apply w-4 h-4 text-accent shrink-0;
+}
+.footer-el-37 {
+  @apply flex gap-3 text-slate-500 text-sm font-medium;
+}
+.footer-el-38 {
+  @apply w-4 h-4 text-accent shrink-0;
+}
+.footer-el-39 {
+  @apply text-[11px] uppercase tracking-[0.2em] font-bold text-secondary mb-6;
+}
+.footer-el-40 {
+  @apply text-slate-500 text-sm mb-4;
+}
+.footer-el-41 {
+  @apply flex flex-col gap-3;
+}
+.footer-el-42 {
+  @apply bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-primary placeholder:text-slate-400 focus:outline-none focus:border-accent text-sm;
+}
+.footer-el-43 {
+  @apply bg-primary text-white font-bold uppercase tracking-widest text-xs py-3 rounded-lg hover:bg-secondary transition-colors;
+}
+.footer-el-44 {
+  @apply max-w-7xl mx-auto pt-8 border-t border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4;
+}
+.footer-el-45 {
+  @apply text-[10px] font-bold text-slate-400 uppercase tracking-widest;
+}
+.footer-el-46 {
+  @apply flex gap-6 text-[10px] font-bold text-slate-400 uppercase tracking-widest;
+}
+.footer-el-47 {
+  @apply hover:text-primary transition-colors;
+}
+.footer-el-48 {
+  @apply hover:text-primary transition-colors;
+}
+.layout-el-49 {
+  @apply min-h-screen flex flex-col;
+}
+.layout-el-50 {
+  @apply flex-1;
+}
+.navbar-el-51 {
+  @apply h-20 w-full flex items-center justify-between px-6 md:px-12 z-50 glass sticky top-0 transition-all duration-300;
+}
+.navbar-el-52 {
+  @apply flex items-center gap-2;
+}
+.navbar-el-53 {
+  @apply w-10 h-10 bg-primary flex items-center justify-center rounded-sm;
+}
+.navbar-el-54 {
+  @apply text-accent font-bold text-xl;
+}
+.navbar-el-55 {
+  @apply flex flex-col leading-none;
+}
+.navbar-el-56 {
+  @apply text-lg font-bold tracking-tight text-primary;
+}
+.navbar-el-57 {
+  @apply text-[10px] uppercase tracking-[0.3em] font-medium text-secondary;
+}
+.navbar-el-58 {
+  @apply hidden lg:flex items-center gap-8 text-sm font-medium uppercase tracking-wider;
+}
+.navbar-el-59 {
+  @apply hidden md:flex items-center gap-6;
+}
+.navbar-el-60 {
+  @apply text-sm font-semibold text-primary hover:text-accent transition-colors;
+}
+.navbar-el-61 {
+  @apply bg-primary text-white px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-secondary transition-colors;
+}
+.navbar-el-62 {
+  @apply md:hidden flex items-center gap-4;
+}
+.navbar-el-63 {
+  @apply w-6 h-6 text-primary;
+}
+.navbar-el-64 {
+  @apply w-6 h-6 text-primary;
+}
+.navbar-el-65 {
+  @apply md:hidden absolute top-full left-0 right-0 glass border-t border-white/10 animate-in slide-in-from-top-4;
+}
+.navbar-el-66 {
+  @apply flex flex-col p-6 gap-4;
+}
+.navbar-el-67 {
+  @apply text-primary text-lg font-medium py-2 border-b border-primary/10;
+}
+.navbar-el-68 {
+  @apply mt-4 flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-primary text-white font-bold uppercase tracking-widest text-xs;
+}
+.navbar-el-69 {
+  @apply w-4 h-4;
+}
+.about-el-70 {
+  @apply pt-32 pb-24 px-6 bg-background min-h-screen;
+}
+.about-el-71 {
+  @apply max-w-4xl mx-auto text-center;
+}
+.about-el-72 {
+  @apply text-5xl font-serif font-bold text-primary mb-6;
+}
+.about-el-73 {
+  @apply text-primary/70 text-lg leading-relaxed mb-12;
+}
+.about-el-74 {
+  @apply aspect-video w-full rounded-3xl overflow-hidden shadow-2xl;
+}
+.about-el-75 {
+  @apply w-full h-full object-cover;
+}
+.agents-el-76 {
+  @apply pt-32 pb-24 px-6 bg-background min-h-screen;
+}
+.agents-el-77 {
+  @apply max-w-7xl mx-auto;
+}
+.agents-el-78 {
+  @apply text-center mb-16;
+}
+.agents-el-79 {
+  @apply text-[11px] uppercase tracking-[0.2em] font-bold text-secondary mb-2 block;
+}
+.agents-el-80 {
+  @apply text-4xl md:text-5xl font-serif font-bold text-primary mb-6;
+}
+.agents-el-81 {
+  @apply text-primary/70 max-w-2xl mx-auto text-lg;
+}
+.agents-el-82 {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8;
+}
+.agents-el-83 {
+  @apply bg-white rounded-2xl overflow-hidden shadow-luxury hover:shadow-2xl transition-all group border border-slate-100;
+}
+.agents-el-84 {
+  @apply h-72 overflow-hidden;
+}
+.agents-el-85 {
+  @apply w-full h-full object-cover transition-transform duration-500 group-hover:scale-105;
+}
+.agents-el-86 {
+  @apply p-6;
+}
+.agents-el-87 {
+  @apply text-xl font-serif font-bold text-primary;
+}
+.agents-el-88 {
+  @apply text-accent font-medium text-sm mb-4;
+}
+.agents-el-89 {
+  @apply flex items-center justify-between py-4 border-y border-slate-100 mb-4;
+}
+.agents-el-90 {
+  @apply text-center;
+}
+.agents-el-91 {
+  @apply font-bold text-primary text-lg;
+}
+.agents-el-92 {
+  @apply text-xs text-primary/50 uppercase tracking-wider;
+}
+.agents-el-93 {
+  @apply w-px h-8 bg-slate-200;
+}
+.agents-el-94 {
+  @apply text-center;
+}
+.agents-el-95 {
+  @apply font-bold text-primary text-lg flex items-center justify-center gap-1;
+}
+.agents-el-96 {
+  @apply w-3 h-3 fill-accent text-accent;
+}
+.agents-el-97 {
+  @apply text-xs text-primary/50 uppercase tracking-wider;
+}
+.agents-el-98 {
+  @apply w-px h-8 bg-slate-200;
+}
+.agents-el-99 {
+  @apply text-center;
+}
+.agents-el-100 {
+  @apply font-bold text-primary text-lg;
+}
+.agents-el-101 {
+  @apply text-xs text-primary/50 uppercase tracking-wider;
+}
+.agents-el-102 {
+  @apply space-y-3;
+}
+.agents-el-103 {
+  @apply flex items-center gap-3 text-primary/70 hover:text-primary transition-colors text-sm;
+}
+.agents-el-104 {
+  @apply p-2 bg-slate-50 rounded-full;
+}
+.agents-el-105 {
+  @apply w-4 h-4;
+}
+.agents-el-106 {
+  @apply flex items-center gap-3 text-primary/70 hover:text-primary transition-colors text-sm;
+}
+.agents-el-107 {
+  @apply p-2 bg-slate-50 rounded-full;
+}
+.agents-el-108 {
+  @apply w-4 h-4;
+}
+.agents-el-109 {
+  @apply truncate;
+}
+.contact-el-110 {
+  @apply pt-32 pb-24 px-6 bg-background min-h-screen;
+}
+.contact-el-111 {
+  @apply max-w-7xl mx-auto;
+}
+.contact-el-112 {
+  @apply text-center mb-16;
+}
+.contact-el-113 {
+  @apply text-4xl md:text-5xl font-serif font-bold text-primary mb-6;
+}
+.contact-el-114 {
+  @apply text-primary/70 max-w-2xl mx-auto text-lg;
+}
+.contact-el-115 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-12;
+}
+.contact-el-116 {
+  @apply bg-white p-8 md:p-12 rounded-3xl shadow-luxury border border-slate-100;
+}
+.contact-el-117 {
+  @apply text-2xl font-serif font-bold text-primary mb-8;
+}
+.contact-el-118 {
+  @apply space-y-6;
+}
+.contact-el-119 {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+}
+.contact-el-120 {
+  @apply w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-primary transition-colors text-sm;
+}
+.contact-el-121 {
+  @apply w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-primary transition-colors text-sm;
+}
+.contact-el-122 {
+  @apply w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-primary transition-colors text-sm;
+}
+.contact-el-123 {
+  @apply w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-primary transition-colors resize-none text-sm;
+}
+.contact-el-124 {
+  @apply w-full bg-primary text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-secondary transition-colors disabled:opacity-70 uppercase tracking-widest text-[10px];
+}
+.contact-el-125 {
+  @apply w-4 h-4;
+}
+.contact-el-126 {
+  @apply space-y-8;
+}
+.contact-el-127 {
+  @apply bg-primary text-white p-8 rounded-3xl shadow-luxury;
+}
+.contact-el-128 {
+  @apply text-2xl font-serif font-bold mb-8;
+}
+.contact-el-129 {
+  @apply space-y-6;
+}
+.contact-el-130 {
+  @apply flex items-start gap-4;
+}
+.contact-el-131 {
+  @apply p-3 bg-white/10 rounded-full;
+}
+.contact-el-132 {
+  @apply w-6 h-6 text-accent;
+}
+.contact-el-133 {
+  @apply font-semibold text-lg mb-1;
+}
+.contact-el-134 {
+  @apply text-white/70 leading-relaxed;
+}
+.contact-el-135 {
+  @apply flex items-start gap-4;
+}
+.contact-el-136 {
+  @apply p-3 bg-white/10 rounded-full;
+}
+.contact-el-137 {
+  @apply w-6 h-6 text-accent;
+}
+.contact-el-138 {
+  @apply font-semibold text-lg mb-1;
+}
+.contact-el-139 {
+  @apply text-white/70;
+}
+.contact-el-140 {
+  @apply flex items-start gap-4;
+}
+.contact-el-141 {
+  @apply p-3 bg-white/10 rounded-full;
+}
+.contact-el-142 {
+  @apply w-6 h-6 text-accent;
+}
+.contact-el-143 {
+  @apply font-semibold text-lg mb-1;
+}
+.contact-el-144 {
+  @apply text-white/70;
+}
+.contact-el-145 {
+  @apply h-64 bg-slate-200 rounded-3xl flex items-center justify-center border border-slate-300 overflow-hidden relative;
+}
+.contact-el-146 {
+  @apply absolute inset-0 w-full h-full object-cover opacity-50 grayscale;
+}
+.contact-el-147 {
+  @apply relative z-10 bg-white/90 backdrop-blur px-6 py-3 rounded-xl shadow-lg font-medium text-primary;
+}
+.dashboard-el-148 {
+  @apply min-h-screen flex items-center justify-center bg-background;
+}
+.dashboard-el-149 {
+  @apply w-16 h-16 border-4 border-primary border-t-accent rounded-full animate-spin;
+}
+.dashboard-el-150 {
+  @apply pt-32 pb-24 px-6 bg-background min-h-screen;
+}
+.dashboard-el-151 {
+  @apply max-w-7xl mx-auto flex flex-col md:flex-row gap-8;
+}
+.dashboard-el-152 {
+  @apply w-full md:w-64 bg-white rounded-2xl shadow-sm border border-slate-100 p-6 h-fit shrink-0;
+}
+.dashboard-el-153 {
+  @apply text-center mb-8 pb-8 border-b border-slate-100;
+}
+.dashboard-el-154 {
+  @apply w-20 h-20 mx-auto bg-slate-100 rounded-full flex items-center justify-center mb-4 overflow-hidden;
+}
+.dashboard-el-155 {
+  @apply w-full h-full object-cover;
+}
+.dashboard-el-156 {
+  @apply w-10 h-10 text-primary/50;
+}
+.dashboard-el-157 {
+  @apply font-serif font-bold text-xl text-primary;
+}
+.dashboard-el-158 {
+  @apply text-primary/60 text-sm truncate;
+}
+.dashboard-el-159 {
+  @apply space-y-2;
+}
+.dashboard-el-160 {
+  @apply w-full flex items-center gap-3 px-4 py-3 bg-primary text-white rounded-lg font-medium;
+}
+.dashboard-el-161 {
+  @apply w-5 h-5;
+}
+.dashboard-el-162 {
+  @apply w-full flex items-center gap-3 px-4 py-3 text-primary/70 hover:bg-slate-50 hover:text-primary rounded-lg font-medium transition-colors;
+}
+.dashboard-el-163 {
+  @apply w-5 h-5;
+}
+.dashboard-el-164 {
+  @apply w-full flex items-center gap-3 px-4 py-3 text-primary/70 hover:bg-slate-50 hover:text-primary rounded-lg font-medium transition-colors;
+}
+.dashboard-el-165 {
+  @apply w-5 h-5;
+}
+.dashboard-el-166 {
